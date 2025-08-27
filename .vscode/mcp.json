@@ -1,0 +1,16 @@
+{
+  "servers": {
+    "Zyte MCP Server": {
+      "command": "uv",
+      "args": [
+        "run",
+        "--with",
+        "fastmcp",
+        "fastmcp",
+        "run",
+        "/Users/john.rooney/Projects/mcp-server/main.py"
+      ],
+      "env": {}
+    }
+  }
+}

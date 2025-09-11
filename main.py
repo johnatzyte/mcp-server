@@ -1,10 +1,10 @@
 from fastmcp import FastMCP
 import requests
 from base64 import b64decode
-import os
 from typing import Dict, Any, Optional, List
-from pydantic import BaseModel, Field, ValidationError
+from pydantic import BaseModel
 import logging
+import os
 
 class ProductResponse(BaseModel):
     name: Optional[str] = None
